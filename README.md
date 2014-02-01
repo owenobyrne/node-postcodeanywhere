@@ -27,7 +27,7 @@ Installation
 
 Via [npm][]:
 
-     $ npm install node-postcodeanywhere
+     $ npm install postcodeanywhere
 	
 As a submodule of your project
 

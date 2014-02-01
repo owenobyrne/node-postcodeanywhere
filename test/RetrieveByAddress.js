@@ -1,6 +1,6 @@
 var postcodeanywhere = require("./../index");
 
-postcodeanywhere.initialize("AM94-KE87-BA77-HK58");
+postcodeanywhere.initialize("XXXX-XXXX-XXXX-XXXX");
 
 postcodeanywhere.RetrieveByAddress({address: "SW11 3LJ"}, function(err, data) {
 
