@@ -1,0 +1,25 @@
+{
+  "name": "node-postcodeanywhere",
+  "version": "0.0.1",
+  "description": "A Node wrapper for the Postcode Anywhere service",
+  "main": "index.js",
+  "scripts": {
+    "test": "for f in test/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owenobyrne/node-postcodeanywhere.git"
+  },
+  "keywords": [
+    "node",
+    "postcodeanywhere"
+  ],
+ "dependencies": {
+    "requestify": "~0.1.16"
+  },
+  "author": "Owen O Byrne",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/owenobyrne/node-postcodeanywhere/issues"
+  }
+}
