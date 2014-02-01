@@ -1,4 +1,4 @@
 node-postcodeanywhere
 =====================
 
-A Node rapper for the Postcode Anywhere service
+A Node wrapper for the Postcode Anywhere service
