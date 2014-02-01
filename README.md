@@ -35,3 +35,4 @@ As a submodule of your project
 	$ git submodule update --init
 	
 [npm]: https://github.com/isaacs/npm
+[node-postcode-anywhere]: https://github.com/Bizzby/node-postcode-anywhere
