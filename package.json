@@ -18,7 +18,7 @@
     "requestify": "~0.1.16"
   },
   "author": "Owen O Byrne",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/owenobyrne/node-postcodeanywhere/issues"
   }
