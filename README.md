@@ -14,10 +14,15 @@ var postcodeanywhere = require("postcodeanywhere");
 
 postcodeanywhere.initialize("XXXX-XXXX-XXXX-XXXX");
 
-postcodeanywhere.RetrieveByAddress({address: "SW11 3LJ"}, function(err, data) {
-
+// returns a list of addresses matching a term.
+postcodeanywhere.CapturePlusInteractiveFind({searchTerm: "SW11 3LJ"}, function(err, data) {
 	if (err) { console.log(err.description); return false; }
+	console.log(data);
+});
 
+// Returns the full address details based on the Id.
+postcodeanywhere.CapturePlusInteractiveRetrieve({id: "GBR|23926131"}, function(err, data) {
+	if (err) { console.log(err.description); return false; }
 	console.log(data);
 });
 ````
@@ -29,7 +34,7 @@ Via [npm][]:
 
      $ npm install postcodeanywhere
 	
-As a submodule of your project
+Or to install as a submodule of your project
 
 	$ git submodule add http://github.com/owenobyrne/node-postcodeanywhere.git postcodeanywhere
 	$ git submodule update --init
