@@ -27,4 +27,10 @@ postcodeanywhere.CapturePlusInteractiveRetrieve({id: "GBR|23926131"}, function(e
 	console.log(data);
 });
 
-
+// Validates Bank Validation by Account number/Sort code
+// http://www.pcapredict.com/Support/WebService/BankAccountValidation/Interactive/Validate/2/
+postcodeanywhere.BankAccountValidation({accountNumber: "12345678", sortCode: "000099"}, function(err, data) {
+	if (err) { console.log(err.description); return false; }
+	console.log("response:");
+	console.log(data);
+});
